@@ -1,0 +1,27 @@
+{
+  "name": "portail-back",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/houssem-jeddou/portail-back.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/houssem-jeddou/portail-back/issues"
+  },
+  "homepage": "https://github.com/houssem-jeddou/portail-back#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-fileupload": "^1.2.1",
+    "mongoose": "^5.12.8",
+    "multer": "^1.4.2",
+    "multer-gridfs-storage": "^4.2.0",
+    "mysql": "^2.18.1"
+  }
+}
